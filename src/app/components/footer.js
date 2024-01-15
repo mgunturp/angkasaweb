@@ -3,7 +3,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer className="mt-20 mx-20">
+    <footer className="mt-20 mx-20 mb-5">
       <div className="wrapper flex justify-between">
         <div className="wrapper-logo">
           <div className="logo flex gap-6  items-center">

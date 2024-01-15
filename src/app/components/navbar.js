@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function Navbar() {
   return (
-    <nav className="flex justify-between items-center px-20">
+    <nav className="flex justify-between items-center z-50 px-20">
       <div className="logo flex gap-6 justify-between items-center">
         <Image src="/icon.png" alt="icon company" width={50} height={30}></Image>
         <h1 className="text-[#414141] font-[600] text-[24px]">Ankasa</h1>
