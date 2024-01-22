@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 import LoginLeft from "../../../components/loginleft";
 const base_url = "https://easy-lime-seal-toga.cyclic.app";
 
-export default function ResetPassword(props) {
+function ResetPassword(props) {
   const request_code = props.params.code;
   const router = useRouter();
   const [showPassword, setShowPassword] = useState(false);
@@ -115,3 +115,5 @@ export default function ResetPassword(props) {
     </>
   );
 }
+
+export default ResetPassword
