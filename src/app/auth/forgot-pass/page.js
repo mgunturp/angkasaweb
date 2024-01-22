@@ -1,5 +1,5 @@
-import Forgotpass from "@/app/components/Forgotpass";
-import LoginLeft from "@/app/components/LoginLeft";
+import Forgotpass from "../../components/forgotpassgi";
+import LoginLeft from "../../components/loginleft"
 import React from "react";
 
 function page() {

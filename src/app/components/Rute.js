@@ -5,7 +5,7 @@ import React, { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import axios from "axios";
 import Link from "next/link";
-import RangeSlider from "./RangePrice";
+import RangeSlider from "./rangeprice"
 const url = "https://easy-lime-seal-toga.cyclic.app";
 
 function Rute({ searchParams }) {
