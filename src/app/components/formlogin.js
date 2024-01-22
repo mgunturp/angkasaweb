@@ -82,9 +82,9 @@ function FormLogin() {
           </div>
           <div className="forgot text-center pt-6">
             <p className="text-[16px] text-[#595959] mb-3">Did you forgot your password?</p>
-            <Link href="/auth/forgot-pass" className="text-[#2395FF] text-[16px] border-b-[1px] border-[#2395FF]">
+            <p className="text-[#2395FF] text-[16px] border-b-[1px] border-[#2395FF]">
               Tap here for reset
-            </Link>
+            </p>
           </div>
         </div>
       </div>
