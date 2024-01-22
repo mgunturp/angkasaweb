@@ -3,13 +3,13 @@
 import { useState } from "react";
 import axios from "axios";
 import Swal from "sweetalert2";
-import { useRouter } from "next/navigation";
+
 import LoginLeft from "../../../components/loginleft";
 const base_url = "https://easy-lime-seal-toga.cyclic.app";
 
 function ResetPassword(props) {
   const request_code = props.params.code;
-  const router = useRouter();
+
   const [showPassword, setShowPassword] = useState(false);
   const [newPassword, setNewPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
@@ -65,7 +65,7 @@ function ResetPassword(props) {
         text: `${res.data.message}`,
         icon: "success",
       });
-      router.push("/auth/login");
+ 
     } catch (error) {
       console.log(error);
       Swal.fire({
