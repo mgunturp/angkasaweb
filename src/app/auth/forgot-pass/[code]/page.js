@@ -4,7 +4,7 @@ import { useState } from "react";
 import axios from "axios";
 import Swal from "sweetalert2";
 import { useRouter } from "next/navigation";
-import LoginLeft from "@/app/components/LoginLeft";
+import LoginLeft from "../../../components/loginleft";
 const base_url = "https://easy-lime-seal-toga.cyclic.app";
 
 export default function ResetPassword(props) {

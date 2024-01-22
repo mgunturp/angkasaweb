@@ -1,4 +1,4 @@
-import Forgotpass from "../../components/forgotpassgi";
+import Forgotpass from "../../components/forgotpass";
 import LoginLeft from "../../components/loginleft"
 import React from "react";
 
