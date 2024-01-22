@@ -1,13 +1,12 @@
-import FormLogin from "@/app/components/login";
-
-import LoginLeft from "@/app/components/LoginLeft";
+import FormLogin from "@/app/components/formlogin";
+import LoginLeft from "@/app/components/loginleft";
 import React from "react";
 
 function page() {
   return (
     <div className="flex">
       <LoginLeft />
-      <FormLogin />
+      <FormLogin/>
     </div>
   );
 }
