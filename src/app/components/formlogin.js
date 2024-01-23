@@ -34,7 +34,7 @@ function FormLogin() {
       Swal.fire({
         icon: "success",
         title: "Login Successful",
-        text: "You have successfully registered!",
+        text: "You have login successfully!",
       });
 
       router.push("/profile");
@@ -44,13 +44,13 @@ function FormLogin() {
       if (error.response && error.response.data && error.response.data.message) {
         Swal.fire({
           icon: "error",
-          title: "Registration Failed",
+          title: "Login Failed",
           text: error.response.data.message,
         });
       } else {
         Swal.fire({
           icon: "error",
-          title: "Registration Failed",
+          title: "Login Failed",
           text: "Something went wrong. Please try again.",
         });
       }
@@ -79,7 +79,7 @@ function FormLogin() {
             <button className="bg-[#2395FF] w-[320px] py-2 rounded-lg text-white transition duration-300 ease-in-out transform hover:bg-blue-700 hover:scale-105 focus:outline-none focus:ring focus:border-blue-300" onClick={handleLogin}>
               Sign Up
             </button>
-          </div>n 
+          </div> 
         </div>
       </div>
     </div>
