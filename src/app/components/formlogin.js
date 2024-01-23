@@ -79,13 +79,7 @@ function FormLogin() {
             <button className="bg-[#2395FF] w-[320px] py-2 rounded-lg text-white transition duration-300 ease-in-out transform hover:bg-blue-700 hover:scale-105 focus:outline-none focus:ring focus:border-blue-300" onClick={handleLogin}>
               Sign Up
             </button>
-          </div>
-          <div className="forgot text-center pt-6">
-            <p className="text-[16px] text-[#595959] mb-3">Did you forgot your password?</p>
-            <p className="text-[#2395FF] text-[16px] border-b-[1px] border-[#2395FF]">
-              Tap here for reset
-            </p>
-          </div>
+          </div>n 
         </div>
       </div>
     </div>
