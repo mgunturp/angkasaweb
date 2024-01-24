@@ -6,7 +6,7 @@
     <img src="/public/icon.png" alt="Logo" width="160" height="160">
   </a>
 
-  <h3 align="center">Ankasa - App</h3>
+  <h3 align="center">Ankasa Web</h3>
 
   <p align="center">
     Booking Your Ticket!
