@@ -11,13 +11,13 @@
   <p align="center">
     Booking Your Ticket!
     <br />
-    <a href="https://github.com/fauzimulyanaa/Ankasa-App"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/mgunturp/angkasaweb.git"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     ·
-    <a href="https://github.com/fauzimulyanaa/Ankasa-App/issues">Report Bug</a>
+    <a href="https://github.com/mgunturp/angkasaweb.git/issues">Report Bug</a>
     ·
-    <a href="https://github.com/fauzimulyanaa/Ankasa-App/issues">Request Feature</a>
+    <a href="https://github.com/mgunturp/angkasaweb.git/issues">Request Feature</a>
     <br />
     
   </p>
