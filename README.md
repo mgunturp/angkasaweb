@@ -14,12 +14,6 @@
     <a href="https://github.com/mgunturp/angkasaweb.git"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    ·
-    <a href="https://github.com/mgunturp/angkasaweb.git/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/mgunturp/angkasaweb.git/issues">Request Feature</a>
-    <br />
-    
   </p>
 </div>
 
