@@ -58,13 +58,13 @@ function FormLogin() {
   };
   return (
     <div className="sm:w-[50%] mx-auto overflow-hidden w-full">
-      <div className="logo flex gap-6  items-center sm:px-44 pt-7  px-28 ">
+      <div className="logo flex gap-6  justify-center sm:px-44 pt-7  px-28 ">
         <Image src="/icon.png" alt="icon company" width={50} height={30}></Image>
         <h1 className="text-[#414141] font-[600] text-[24px]">Ankasa</h1>
       </div>
       <div className="wrapper-form flex flex-col  pt-32 h-full pb-8 sm:pb-0">
         <div className="from mx-auto">
-          <div className="title items-start flex">
+          <div className="title justify-center flex">
             <h1 className="text-[36px] font-[600] mb-8">Login</h1>
           </div>
           <div className="fullname pb-9">
